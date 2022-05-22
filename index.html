@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div id="contador">
+            <p><span id="score">0</span> Guilhermes</p>
+        </div>
+        <div id="idle">
+            <p><span id="GPS">0.0</span>/s</p>
+        </div>
+    </header>
+
+    <div id="clickercontainer"><img src="imagens/brocolis.png" alt="Guilherme, clique aqui" class="guilherme" onclick="addToScore(clickingPower)"></div>
+
+    <button onclick="buyCursor()" id="btncursor"> <span id="cursors">0</span> LOLzinhos -- [<span id="cursorcost">15</span>] </button>
+  
+    <button onclick="buyGrandma()" id="btngrandma"> <span id="grandmas">0</span> Sonequinha na Aula -- [<span id="grandmacost">100</span>] </button> 
+
+    <button onclick="buyOven()" id="btnoven"> <span id="ovens">0</span> Fazer um Design Think -- [<span id="ovencost">1000</span>] </button> 
+
+    <button onclick="buyPablo()" id="btnpablo"> <span id="pablos">0</span> Ser xingado pelo Pablo -- [<span id="pablocost">10000</span>] </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
